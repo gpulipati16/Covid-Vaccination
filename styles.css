@@ -1,0 +1,34 @@
+label{
+    font-size: 25px;
+}
+form{
+    width:550px;
+    height:800px;
+    margin-left: 350px;
+}
+
+legend{
+    font-size: 20px;
+    font-style: italic;
+    background-color: rgb(124, 248, 107);
+} 
+
+input[type="text"],input[type="password"],input[type="email"],input[type="date"],
+input[type="number"]
+{
+    width: 300px;
+    margin-bottom:15px;
+    font-size: 1rem;
+    box-sizing:border-box;
+    box-shadow: rgb(6, 63, 65);
+    margin-left:10px;
+}
+
+button{
+    font-size:large;
+    text-align:center;
+    background-color: rgb(65, 167, 226);
+    color:black;
+    display: block;
+    margin: auto;
+}
