@@ -3,12 +3,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1>OTP</h1>
     <form>
     <fieldset>
-            <div>
-                <label for="otp">OTP</label>
-                <input type="number" name="email" placeholder="Enter otp" id="email">
-            </div>
+        <div>
+            <label for="telNo">OTP</label>
+            <input type="tel" name="telNo" placeholder="Enter OTP" id="telNo" pattern=".{4}" oninvalid="alert('Invalid OTP must contain 4 digits');">
+        </div>
       </br>
             <div>
                 <button type="submit">Submit</button>

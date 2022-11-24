@@ -1,8 +1,10 @@
+
 <html>
 <head>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1>SIGN UP FORM</h1>
     <form>
     <fieldset>
             <legend> USER REGISTRATION FORM</legend>
@@ -15,17 +17,17 @@
                     <input type="text" name="last" id="name" placeholder="Enter last name" autocomplete="off">
                 </div>
             <div>
-                <label for="Phone">Phone No.</label>
-                <input type="number" name="email" placeholder="Enter phone" id="email">
+                <label for="telNo">Phone No.</label>
+                <input type="tel" name="telNo" placeholder="Enter phone" id="telNo" pattern=".{10}" oninvalid="alert('Must contain 10 digits');">
             </div>
 
             <div>
                 <label for="Aadhar">Aadhar No.</label>
-                <input type="text" name="Aadhar" id="name" placeholder="Enter aadhar" autocomplete="off">
+                <input type="number" name="Aadhar" id="number" placeholder="Enter aadhar" autocomplete="off" pattern=".{12}" oninvalid="alert('Must contain 12 digits');">
             </div>
             <div>
-                <label for="text">Date of Birth</label>
-                <input type="date" name="password" placeholder="dd/mm/yyyy" id="pass">
+                <label for="date">Date of Birth</label>
+                <input type="date" name="date" placeholder="dd/mm/yyyy" id="date">
             </div>
       </br>
             <div>
@@ -35,3 +37,6 @@
     </form>
 </body>
 </html>
+
+
+

@@ -1,3 +1,8 @@
+body{
+    background-image: url("https://t3.ftcdn.net/jpg/03/55/60/70/240_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg");
+    background-position: 2000px;
+    /*background-color: rgb(212, 170, 229);*/
+}
 label{
     font-size: 25px;
 }
@@ -5,16 +10,22 @@ form{
     width:550px;
     height:800px;
     margin-left: 350px;
+    padding:200px 50px 100px 100px;
 }
-
+.h1{
+    font-weight: 800;
+    font-family: Bradley Hand, cursive;
+    font-variant: small-caps;
+    text-align: center;
+}
 legend{
     font-size: 20px;
     font-style: italic;
-    background-color: rgb(124, 248, 107);
+    background-color: rgb(142, 246, 150);
 } 
 
 input[type="text"],input[type="password"],input[type="email"],input[type="date"],
-input[type="number"]
+input[type="number"],input[type="tel"]
 {
     width: 300px;
     margin-bottom:15px;
@@ -32,3 +43,12 @@ button{
     display: block;
     margin: auto;
 }
+
+
+
+
+
+
+
+
+
